@@ -21,6 +21,17 @@
     });
   });
 
+  // Close when clicking or touching outside the menu
+  const closeOnOutside = (e) => {
+    if (!links.contains(e.target) && !toggle.contains(e.target) && links.classList.contains('open')) {
+      links.classList.remove('open');
+      toggle.classList.remove('open');
+      document.body.classList.remove('no-scroll');
+    }
+  };
+  document.addEventListener('click', closeOnOutside);
+  document.addEventListener('pointerdown', closeOnOutside);
+
   // Close on Escape
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && links.classList.contains('open')) {
