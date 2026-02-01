@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "about": "À propos",
+    "hours": "Horaires",
+    "cocktail": "Cocktail",
+    "location": "Localisation",
+    "contact": "Contact",
+    "book": "Réserver"
+  },
+  "hero": {
+    "eyebrow": "Bienvenue à Toulouse",
+    "title": "Le Petit<br><em>Voisin</em>",
+    "desc": "Cocktails créatifs, bières locales et soirées live — un endroit chaleureux pour partager un verre entre amis, au cœur de la ville.",
+    "cta": "Menu des boissons",
+    "more": "En savoir plus"
+  },
+  "about": {
+    "label": "À propos",
+    "title": "Un endroit où<br>se sentir <em>chez soi</em>",
+    "desc": "Le Petit Voisin vous accueille chaleureusement au cœur de Toulouse. Savourez une cuisine maison — tapas, sandwichs et crêpes sucrées — préparée avec soin par notre équipe. Accompagnez-la d'une boisson rafraîchissante ou d'un cocktail signature. Profitez d'une ambiance conviviale, musique live et happy hours réguliers pour des soirées mémorables.",
+    "stats": {
+      "rating": "4.5 étoiles sur Google",
+      "cocktails": "Cocktails<br>signatures",
+      "wines": "Sirops<br>différents",
+      "nights": "Soirées<br>mémorables"
+    }
+  },
+  "hours": {
+    "label": "Horaires",
+    "title": "Nos <em>horaires</em>",
+    "weekTitle": "Semaine",
+    "weekendTitle": "Week-end",
+    "days": {
+      "monday": "Lundi",
+      "tuesday": "Mardi",
+      "wednesday": "Mercredi",
+      "thursday": "Jeudi",
+      "friday": "Vendredi",
+      "saturday": "Samedi",
+      "sunday": "Dimanche"
+    },
+    "closed": "Fermé"
+  },
+  "cocktail": {
+    "label": "Chaque semaine",
+    "title": "Cocktail<br><em>Surprise</em>",
+    "desc": "Demandez un cocktail surprise : laissez le barman vous surprendre entièrement, ou choisissez la base d’alcool (gin, rhum, vodka…) et nous créerons une recette sur‑mesure pour vous.",
+    "tag": "Nouvelle création cette semaine"
+  },
+  "happy": {
+    "label": "Happy Hour",
+    "title": "Happy<br><em>Hour</em>",
+    "desc": "Pinte de Kro — 3 € · Ricard — 1 € pendant l'Happy Hour.",
+    "items": {
+      "kro": "Pinte de Kro — 3 €",
+      "ricard": "Ricard — 1 €"
+    }
+  },
+  "location": {
+    "label": "Où nous trouver",
+    "title": "Notre<br><em>adresse</em>",
+    "desc": "Situés à proximité des principaux quartiers animés de Toulouse, nous vous attendons.",
+    "address": "<span>37 Rue Peyrolières</span> · 31000 Toulouse"
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Restons en<br><em>contact</em>",
+    "phoneTitle": "Téléphone",
+    "phoneDesc": "Réservations et informations sur les événements.",
+    "addressTitle": "Adresse",
+    "addressDesc": "37 Rue Peyrolières<br>31000 Toulouse, France",
+    "socialTitle": "Suivez-nous",
+    "instagram": "Instagram",
+    "facebook": "Facebook"
+  },
+  "gallery": {
+    "label": "Galerie",
+    "title": "Nos <em>instants</em>",
+    "desc": "Quelques moments capturés au bar — ambiance, cocktails et soirées."
+  },
+  "footer": {
+    "reservation": "Réservations : <a href=\"tel:+33561000000\">+33 5 61 00 00 00</a>"
+  }
+}

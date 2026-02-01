@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Le Petit Voisin — Bar à Toulouse</title>
+  <meta name="description" content="Le Petit Voisin : Bière, Café, Cocktail, Tapas au cœur de Toulouse. Horaires, contact et localisation." />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <!-- ─── HERO ─── -->
+  <header class="hero">
+    <div class="hero__bg"></div>
+    <div class="hero__gradient"></div>
+
+    <nav>
+      <div class="nav__inner">
+        <a href="index.html" class="nav__logo">
+          <div>
+            <div class="nav__logo-text" data-i18n="nav.brand">Le Petit Voisin</div>
+            <span class="nav__logo-sub" data-i18n="nav.tag">Bière · Café · Cocktail · Tapas</span>
+          </div>
+        </a>
+
+        <div class="nav__center">
+          <ul class="nav__links">
+            <li><a href="#a-propos" data-i18n="nav.about">À propos</a></li>
+            <li><a href="#happy-hour" data-i18n="nav.happy">Happy Hour</a></li>
+            <li><a href="#horaires" data-i18n="nav.hours">Horaires</a></li>
+            <li><a href="#cocktail" data-i18n="nav.cocktail">Cocktail</a></li>
+            <li><a href="#galerie" data-i18n="nav.gallery">Galerie</a></li>
+            <li><a href="#localisation" data-i18n="nav.location">Localisation</a></li>
+            <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+            <li class="nav__lang-item">
+              <button class="lang-btn" data-lang="fr" data-i18n="nav.lang.fr" aria-pressed="true">FR</button>
+              <button class="lang-btn" data-lang="en" data-i18n="nav.lang.en" aria-pressed="false">EN</button>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__actions" style="display:flex;align-items:center;gap:12px">
+          <div class="nav__langs">
+            <button class="lang-btn" data-lang="fr" data-i18n="nav.lang.fr" aria-pressed="true">FR</button>
+            <button class="lang-btn" data-lang="en" data-i18n="nav.lang.en" aria-pressed="false">EN</button>
+          </div>
+          <button class="nav__toggle" aria-label="Menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hero__content">
+      <div class="hero__eyebrow" data-i18n="hero.eyebrow">Bienvenue à Toulouse</div>
+      <h1 class="hero__title" data-i18n="hero.title">Le Petit<br><em>Voisin</em></h1>
+      <p class="hero__desc" data-i18n="hero.desc">Cocktails créatifs, bières locales et soirées live — un coin pour partager un verre entre amis, au coeur de la ville.</p>
+      <div class="hero__actions">
+        <div class="btn-with-down">
+          <a href="../file/menuPV.pdf" class="btn-primary" data-i18n="hero.cta">Menu des boissons</a>
+        </div>
+      </div>
+    </div>
+    <a href="#a-propos" class="btn-down" aria-label="En savoir plus">
+      <span class="btn-down__arrow" aria-hidden="true">↓</span>
+      <span class="btn-down__label" data-i18n="hero.more">En savoir plus</span>
+    </a>
+  </header>
+
+  <!-- ─── À PROPOS ─── -->
+  <section id="a-propos" class="section">
+    <div class="about">
+      <div class="about__text reveal">
+        <div class="section-label" data-i18n="about.label">À propos</div>
+        <h2 class="section-title" data-i18n="about.title">Un endroit où<br>se sentir <em>chez soi</em></h2>
+        <p data-i18n="about.desc">Le Petit Voisin vous accueille chaleureusement au cœur de Toulouse. Savourez une cuisine maison — tapas, sandwichs et crêpes sucrées — préparée avec soin par notre équipe. Accompagnez-la d'une boisson rafraîchissante ou d'un cocktail signature. Profitez d'une ambiance conviviale, musique live et happy hours réguliers pour des soirées mémorables.</p>
+        <div class="about__divider"></div>
+        <div class="about__stats">
+          <div class="stat rating">
+            <div class="stat__number">4.5<span class="stat__sub">/5</span></div>
+            <div class="stat__label">
+              <span class="rating__stars" aria-hidden="true">★ ★ ★ ★ ☆</span>
+              <a href="https://www.google.com/search?q=Le+Petit+Voisin+Toulouse+avis" target="_blank" rel="noopener" class="rating__link" data-i18n="about.stats.rating" aria-label="Voir nos avis Google">4.5 étoiles sur Google</a>
+            </div>
+          </div>
+          <div>
+            <div class="stat__number">30+</div>
+          <div class="stat__label" data-i18n="about.stats.wines">Sirops<br>différents</div>
+          </div>
+          <div>
+            <div class="stat__number">∞</div>
+            <div class="stat__label" data-i18n="about.stats.nights">Soirées<br>mémorables</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about__visual reveal" style="transition-delay: 0.15s;">
+        <!-- Frame décalée en arrière -->
+        <div class="frame-offset"></div>
+        <!-- Image avec coin bas-gauche coupé -->
+        <div class="img-clipped-left">
+          <img src="../img/2.jpg" alt="Le Petit Voisin — Ambiance">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── HAPPY HOUR ─── -->
+  <section id="happy-hour" class="section happy-hour">
+    <div class="reveal">
+      <div class="section-label" data-i18n="happy.label">Happy Hour</div>
+      <h2 class="section-title" data-i18n="happy.title">Happy<br><em>Hour 19h/21h</em></h2>
+      <p data-i18n="happy.desc">Servie sans cacahuètes.</p>
+
+      <div class="happy-hour__countdown reveal" style="transition-delay: 0.05s;">
+        <div class="countdown__status" id="hh-status">Prochain Happy Hour dans</div>
+        <div class="countdown__timer" id="hh-timer">--h --m --s</div>
+      </div>
+    </div>
+
+    <div class="contact__grid reveal" style="transition-delay: 0.1s;">
+      <div class="contact__card">
+        <h3 class="contact__card-title" data-i18n="happy.items.kro" style="font-size: x-large;">Pinte de Kro — 3 €</h3>
+        <p data-i18n="happy.items.kro_desc">Disponible pendant l'Happy Hour.</p>
+      </div>
+
+      <div class="contact__card">
+       
+        <h3 class="contact__card-title" data-i18n="happy.items.ricard" style="font-size: x-large;">Ricard — 1 €</h3>
+        <p data-i18n="happy.items.ricard_desc">Disponible pendant l'Happy Hour.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── HAPPY SHOOTER ─── -->
+  <section id="happy-shooter" class="section happy-shooter">
+    <div class="reveal">
+      <div class="section-label" data-i18n="happy_shooter.label">Happy Shooter</div>
+      <h2 class="section-title" data-i18n="happy_shooter.title">Happy<br><em>Shooter</em></h2>
+      <p data-i18n="happy_shooter.desc">Lundi, Mercredi, Vendredi — 1 shooter acheté, 1 shooter offert.</p>
+
+      <div class="happy-shooter__box reveal" style="transition-delay: 0.1s;">
+        <div class="shooter__info">
+          <strong>Quand</strong>
+          <p data-i18n="happy_shooter.days">22h - 23h</p>
+        </div>
+        <div class="shooter__offer">
+          <strong data-i18n="happy_shooter.offer_label">Offre</strong>
+          <p data-i18n="happy_shooter.offer">1 shooter acheté = 1 shooter offert</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── HORAIRES ─── -->
+  <section id="horaires" class="section horaires">
+    <div class="reveal">
+      <div class="section-label" data-i18n="hours.label">Horaires</div>
+      <h2 class="section-title" data-i18n="hours.title">Nos <em>ouvertures</em></h2>
+    </div>
+
+    <div class="horaires__grid reveal" style="transition-delay: 0.1s;">
+      <div class="horaires__col">
+        <h3 class="horaires__col-title" data-i18n="hours.weekTitle">Semaine</h3>
+        <div class="horaires__row">
+          <span class="horaires__day" data-i18n="hours.days.monday">Lundi</span>
+          <span class="horaires__time">7h30 — 02h00</span>
+        </div>
+        <div class="horaires__row">
+          <span class="horaires__day" data-i18n="hours.days.tuesday">Mardi</span>
+          <span class="horaires__time">7h30 — 02h00</span>
+        </div>
+        <div class="horaires__row">
+          <span class="horaires__day" data-i18n="hours.days.wednesday">Mercredi</span>
+          <span class="horaires__time">7h30 — 02h00</span>
+        </div>
+        <div class="horaires__row">
+          <span class="horaires__day" data-i18n="hours.days.thursday">Jeudi</span>
+          <span class="horaires__time">7h30 — 02h00</span>
+        </div>
+      </div>
+      <div class="horaires__col">
+        <h3 class="horaires__col-title" data-i18n="hours.weekendTitle">Week-end</h3>
+        <div class="horaires__row">
+          <span class="horaires__day" data-i18n="hours.days.friday">Vendredi</span>
+          <span class="horaires__time">7h30 — 02h00</span>
+        </div>
+        <div class="horaires__row">
+          <span class="horaires__day" data-i18n="hours.days.saturday">Samedi</span>
+          <span class="horaires__time">9h30 — 03h00</span>
+        </div>
+        <div class="horaires__row">
+          <span class="horaires__day" data-i18n="hours.days.sunday">Dimanche</span>
+          <span class="horaires__time horaires__time--closed" data-i18n="hours.closed">Fermé</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── COCKTAIL SURPRISE ─── -->
+  <section id="cocktail" class="section">
+    <div class="cocktail">
+      <div class="cocktail__visual reveal">
+        <div class="frame-offset"></div>
+        <div class="img-clipped">
+          <img src="../img/cocktail.jpg" alt="Cocktail Surprise">
+        </div>
+      </div>
+
+      <div class="cocktail__text reveal" style="transition-delay: 0.15s;">
+        <div class="section-label" data-i18n="cocktail.label">Chaque semaine</div>
+        <h2 class="section-title" data-i18n="cocktail.title">Cocktail<br><em>Surprise</em></h2>
+        <p data-i18n="cocktail.desc">Notre barman crée chaque semaine un cocktail surprise en fonction des saisons et des inspirations du moment. Une création unique à découvrir lors de votre visite — jamais la même, toujours inattendue.</p>
+        <div class="cocktail__tag">
+          <div class="cocktail__tag-dot"></div>
+          <span data-i18n="cocktail.tag">Nouvelle création cette semaine</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── LOCALISATION ─── -->
+  <section id="localisation" class="section">
+    <div class="localisation__header reveal">
+      <div class="section-label" data-i18n="location.label">Où nous trouver</div>
+      <h2 class="section-title" data-i18n="location.title">Notre<br><em>adresse</em></h2>
+      <p data-i18n="location.desc">Situés à proximité des principaux quartiers animés de Toulouse, nous vous attendons.</p>
+    </div>
+
+    <div class="localisation__map-wrap reveal" style="transition-delay: 0.1s;">
+      <iframe
+        src="https://www.google.com/maps?q=Le+Petit+Voisin+Toulouse&output=embed"
+        frameborder="0"
+        referrerpolicy="no-referrer-when-downgrade"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <p class="localisation__address reveal">
+      <span>37 Rue Peyrolières</span> · 31000 Toulouse
+    </p>
+  </section>
+
+  <!-- ─── CONTACT ─── -->
+  <section id="contact" class="section">
+    <div class="reveal">
+      <div class="section-label" data-i18n="contact.label">Contact</div>
+      <h2 class="section-title" data-i18n="contact.title">Restons en<br><em>contact</em></h2>
+    </div>
+
+    <div class="contact__grid reveal" style="transition-delay: 0.1s;">
+      <!-- Téléphone -->
+      <div class="contact__card">
+        <div class="contact__card-icon">
+          <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+        </div>
+        <h3 class="contact__card-title" data-i18n="contact.phoneTitle">Téléphone</h3>
+        <a href="tel:+33561226522" class="phone">+33 5 61 22 65 22
+</a>
+      </div>
+
+      <!-- Adresse -->
+      <div class="contact__card">
+        <div class="contact__card-icon">
+          <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        </div>
+        <h3 class="contact__card-title" data-i18n="contact.addressTitle">Adresse</h3>
+        <p data-i18n="contact.addressDesc">37 Rue Peyrolières<br>31000 Toulouse, France</p>
+      </div>
+
+      <!-- Réseaux -->
+      <div class="contact__card">
+        <div class="contact__card-icon">
+          <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+        </div>
+        <h3 class="contact__card-title" data-i18n="contact.socialTitle">Suivez-nous</h3>
+        <div class="contact__social-links">
+          <a href="https://www.instagram.com/lepetitvoisintoulouse/" aria-label="Instagram">
+            <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            <span class="social-label" data-i18n="contact.instagram">Instagram</span>
+          </a>
+        </div>
+      </div>
+      <!-- Email -->
+      <div class="contact__card">
+        <div class="contact__card-icon">
+          <svg viewBox="0 0 24 24"><path d="M4 4h16a2 2 0 012 2v12a2 2 0 01-2 2H4a2 2 0 01-2-2V6a2 2 0 012-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </div>
+        <h3 class="contact__card-title" data-i18n="contact.emailTitle">Email</h3>
+        <a href="mailto:sarl.lepetitvoisin@gmail.com" class="email">sarl.lepetitvoisin@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── GALERIE ─── -->
+  <section id="galerie" class="section galerie">
+    <div class="reveal">
+      <div class="section-label" data-i18n="gallery.label">Galerie</div>
+      <h2 class="section-title" data-i18n="gallery.title">Nos <em>instants</em></h2>
+      <p data-i18n="gallery.desc">Quelques moments capturés au bar — ambiance, cocktails et soirées.</p>
+    </div>
+
+    <div class="gallery__grid reveal" style="transition-delay: 0.1s;">
+      <figure class="gallery__item"><img src="../img/1.jpg" alt="" loading="lazy"></figure>
+      <figure class="gallery__item"><img src="../img/2.jpg" alt="" loading="lazy"></figure>
+      <figure class="gallery__item"><img src="../img/5.jpg" alt="" loading="lazy"></figure>
+      <figure class="gallery__item"><img src="../img/6.jpg" alt="" loading="lazy"></figure>
+      <figure class="gallery__item"><img src="../img/7.jpg" alt="" loading="lazy"></figure>
+      <figure class="gallery__item"><img src="../img/8.jpg" alt="" loading="lazy"></figure>
+      <figure class="gallery__item"><img src="../img/10.jpg" alt="" loading="lazy"></figure>
+      <figure class="gallery__item"><img src="../img/9.jpg" alt="" loading="lazy"></figure>
+      <figure class="gallery__item"><img src="../img/cocktail.jpg" alt="" loading="lazy"></figure>
+    </div>
+  </section>
+
+  <!-- lightbox (added for gallery) -->
+  <div class="lightbox" role="dialog" aria-hidden="true">
+    <button class="lightbox__close" aria-label="Close">×</button>
+    <img class="lightbox__img" src="" alt="">
+  </div>
+
+  <!-- ─── FOOTER ─── -->
+  <footer>
+    <p>© 2026 Le Petit Voisin — Toulouse — <a href="mentions-legales.html">Mentions légales</a> — <a href="cgu.html">CGU</a></p>
+  </footer>
+
+  <button id="back-to-top" aria-label="Remonter en haut" aria-hidden="true">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="../js/i18n.js" defer></script>
+  <script src="../js/scroll-reveal.js" defer></script>
+  <script src="../js/nav.js" defer></script>
+  <script src="../js/gallery.js" defer></script>
+  <script src="../js/happyhour.js" defer></script>
+  <script src="../js/back-to-top.js" defer></script>
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "about": "About",
+    "hours": "Hours",
+    "cocktail": "Cocktail",
+    "location": "Location",
+    "contact": "Contact",
+    "book": "Book"
+  },
+  "hero": {
+    "eyebrow": "Welcome to Toulouse",
+    "title": "Le Petit<br><em>Voisin</em>",
+    "desc": "Creative cocktails, local beers and live music nights — a warm spot to share a drink with friends in the heart of the city.",
+    "cta": "Drinks menu",
+    "more": "Learn more"
+  },
+  "about": {
+    "label": "About",
+    "title": "A place to<br>feel <em>at home</em>",
+    "desc": "Le Petit Voisin welcomes you warmly in the heart of Toulouse. Enjoy homemade dishes — tapas, sandwiches and sweet crêpes — carefully prepared by our team. Pair them with refreshing drinks or one of our signature cocktails. Relax in a friendly atmosphere with live music and regular happy hours for memorable evenings.",
+    "stats": {
+      "rating": "4.5 stars on Google",
+      "cocktails": "Signature<br>cocktails",
+      "wines": "Different<br>syrups",
+      "nights": "Memorable<br>nights"
+    }
+  },
+  "hours": {
+    "label": "Hours",
+    "title": "Our <em>opening hours</em>",
+    "weekTitle": "Weekdays",
+    "weekendTitle": "Weekend",
+    "days": {
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday"
+    },
+    "closed": "Closed"
+  },
+  "cocktail": {
+    "label": "Every week",
+    "title": "Cocktail<br><em>Surprise</em>",
+    "desc": "Ask for a surprise cocktail: either let the bartender surprise you completely, or choose your alcohol base (gin, rum, vodka…) and we'll craft a custom drink just for you.",
+    "tag": "New creation this week"
+  },
+  "happy": {
+    "label": "Happy Hour",
+    "title": "Happy<br><em>Hour</em>",
+    "desc": "Pint of Kro — €3 · Ricard — €1 during Happy Hour.",
+    "items": {
+      "kro": "Pint of Kro — €3",
+      "ricard": "Ricard — €1"
+    }
+  },
+  "location": {
+    "label": "Where to find us",
+    "title": "Our<br><em>address</em>",
+    "desc": "Located near the main lively neighborhoods of Toulouse, we look forward to welcoming you.",
+    "address": "<span>37 Rue Peyrolières</span> · 31000 Toulouse"
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Stay in<br><em>touch</em>",
+    "phoneTitle": "Phone",
+    "phoneDesc": "Reservations and event information.",
+    "addressTitle": "Address",
+    "addressDesc": "37 Rue Peyrolières<br>31000 Toulouse, France",
+    "socialTitle": "Follow us",
+    "instagram": "Instagram",
+    "facebook": "Facebook"
+  },
+  "gallery": {
+    "label": "Gallery",
+    "title": "Our <em>moments</em>",
+    "desc": "Some moments captured at the bar — atmosphere, cocktails and nights out."
+  },
+  "footer": {
+    "reservation": "Reservations: <a href=\"tel:+33561000000\">+33 5 61 00 00 00</a>"
+  }
+}

@@ -1,0 +1,21 @@
+/* Styles pour la page CGU */
+.cgu p {
+  margin-top: 12px;
+  color: var(--text-secondary);
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.cgu a {
+  color: var(--gold);
+  text-decoration: none;
+}
+
+.cgu a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  .section { padding: 48px 20px; }
+  .hero__title { font-size: 36px; }
+}
